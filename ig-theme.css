@@ -1,0 +1,62 @@
+:root {
+    --ig-font-family: "Roboto Condensed";
+    --ig-radius-factor: 0;
+    --ig-elevation-factor: 0;
+    --ig-primary-h: 231deg;
+    --ig-primary-s: 48%;
+    --ig-primary-l: 48%;
+    --ig-secondary-h: 231deg;
+    --ig-secondary-s: 40%;
+    --ig-secondary-l: 35%;
+    --ig-error-h: 354deg;
+    --ig-error-s: 78%;
+    --ig-error-l: 46%;
+    --ig-success-h: 92deg;
+    --ig-success-s: 48%;
+    --ig-success-l: 42%;
+    --ig-warn-h: 10deg;
+    --ig-warn-s: 87%;
+    --ig-warn-l: 54%;
+    --ig-info-h: 231deg;
+    --ig-info-s: 48%;
+    --ig-info-l: 48%;
+    --ig-primary-400-contrast: white;
+    --ig-primary-500-contrast: white;
+    --ig-primary-600-contrast: white;
+    --ig-primary-700-contrast: white;
+    --ig-primary-A200-contrast: white;
+    --ig-primary-A400-contrast: white;
+    --ig-secondary-200-contrast: white;
+    --ig-secondary-300-contrast: white;
+    --ig-secondary-400-contrast: white;
+    --ig-secondary-500-contrast: white;
+    --ig-secondary-A100-contrast: white;
+    --ig-secondary-A200-contrast: white;
+    --ig-error-400-contrast: white;
+    --ig-error-500-contrast: white;
+    --ig-error-600-contrast: white;
+    --ig-error-A400-contrast: white;
+    --ig-warn-700-contrast: white;
+    --ig-warn-800-contrast: white;
+    --ig-warn-900-contrast: white;
+    --ig-warn-A700-contrast: white;
+    --ig-info-400-contrast: white;
+    --ig-info-500-contrast: white;
+    --ig-info-A200-contrast: white;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
